@@ -1,6 +1,6 @@
 $(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#18121E','#336666' ,'#233237', '#984b43', '#C29B48', '#466096'],
+				sectionsColor: ['#466096','#233237','#336666' , '#984b43', '#56590A', '#18121E'],
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage', 'lastPage'],
 				menu: '#menu',
         verticalCentered: false,
@@ -8,7 +8,7 @@ $(document).ready(function() {
 				scrollingSpeed: 1000,
        
         afterLoad: function(anchorLink, index){
-            if(anchorLink == '3rdPage'){
+            if(anchorLink == 'secondPage'){
                 $('.skillbar').each(function(){
                   $(this).find('.skillbar-bar').animate({
                     width:$(this).attr('data-percent')
@@ -17,7 +17,7 @@ $(document).ready(function() {
             }
         },
         onLeave: function(index, nextIndex, direction) {
-          if(index == 3){
+          if(index == 2){
             $('.skillbar-bar').css('width','0px');
           }
         }

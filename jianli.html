@@ -2,7 +2,10 @@
 <html>
   <head>
     <title></title>
-    
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.css">
     <link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css">
@@ -17,12 +20,12 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <ul class="nav navbar-nav">
-          <li><a href="#firstPage">个人简介</a></li>
-          <li><a href="#secondPage">求职意向</a></li>
-          <li><a href="#3rdPage">个人技能</a></li>
-          <li><a href="#4thpage">个人作品</a></li>
-          <li><a href="#5thpage">教育背景</a></li>
-          <li><a href="#lastPage">联系方式</a></li>
+          <li><a style="color:white;" href="#firstPage">个人简介</a></li>
+          <li><a style="color:white;" href="#secondPage">个人技能</a></li>
+          <li><a style="color:white;" href="#3rdPage">求职意向</a></li>
+          <li><a style="color:white;" href="#4thpage">个人作品</a></li>
+          <li><a style="color:white;" href="#5thpage">教育背景</a></li>
+          <li><a style="color:white;" href="#lastPage">联系方式</a></li>
         </ul>
       </div>
     </nav>
@@ -31,7 +34,7 @@
         <div id="head"></div>
         <div class="wrapper">
           <div id="hcenter">
-            <img id="selfie" class="img-circle" src="#" alt="selfie"/>
+            <img id="selfie" class="img-circle" src="1.png" alt="selfie"/>
           </div>
           <h1 class="text-center">王壮邦</h1>
           <ul class="intro">
@@ -43,7 +46,50 @@
         </div>
         
       </div>
-      <div class="section" id="section1">
+      
+      <div class="section " id="section1">
+        <div id="head"></div>
+        <div class="wrapper">
+          <h1 class="text-center">个人技能</h1><br><br>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1">
+                <div class="skillbar clearfix " data-percent="85%">
+                  <div class="skillbar-title" style="background: #d35400;"><span>HTML</span></div>
+                  <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div> 
+                <div class="skillbar clearfix " data-percent="80%">
+                  <div class="skillbar-title" style="background: #2980b9;"><span>CSS</span></div>
+                  <div class="skillbar-bar" style="background: #3498db;"></div>
+                </div> 
+                <div class="skillbar clearfix " data-percent="70%">
+                  <div class="skillbar-title" style="background: #2c3e50;"><span>JavaScript</span></div>
+                  <div class="skillbar-bar" style="background: #2c3e50;"></div>
+                </div> 
+                <div class="skillbar clearfix " data-percent="80%">
+                  <div class="skillbar-title" style="background: #46465e;"><span>Bootstrap</span></div>
+                  <div class="skillbar-bar" style="background: #5a68a5;"></div>
+                </div> 
+                <div class="skillbar clearfix " data-percent="60%">
+                  <div class="skillbar-title" style="background: #333333;"><span>jQuery</span></div>
+                  <div class="skillbar-bar" style="background: #525252;"></div>
+                </div> 
+                            
+              </div>
+              <div class="col-md-5 col-sm-5">
+                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp熟悉 HTML、CSS、JavaScript</p>
+                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp熟练开发符合 W3C 标准的页面</p>
+                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp熟练使用 Bootstrap, jQuery 框架</p>
+                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp良好的编码习惯：能优雅地使用空格和换行、能优雅地命名等</p>
+                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp熟练使用PhotoShop，对基本算法、数据结构以及后台开发了解</p>
+                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp有出色的沟通和表达能力，良好的英文文档阅读能力，很强的学习能力、动手能力和逻辑分析能力，有责任心，注重团队合作</p>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+          
+      <div class="section" id="section2">
         <div id="head"></div>
         <div class="wrapper">
           <h1 class="text-center">求职意向</h1>
@@ -95,50 +141,7 @@
             </div>
           </div>
         </div>
-        
-      </div>
-      <div class="section " id="section2">
-        <div id="head"></div>
-        <div class="wrapper">
-          <h1 class="text-center">个人技能</h1><br><br>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1">
-                <div class="skillbar clearfix " data-percent="85%">
-                  <div class="skillbar-title" style="background: #d35400;"><span>HTML</span></div>
-                  <div class="skillbar-bar" style="background: #e67e22;"></div>
-                </div> 
-                <div class="skillbar clearfix " data-percent="80%">
-                  <div class="skillbar-title" style="background: #2980b9;"><span>CSS</span></div>
-                  <div class="skillbar-bar" style="background: #3498db;"></div>
-                </div> 
-                <div class="skillbar clearfix " data-percent="70%">
-                  <div class="skillbar-title" style="background: #2c3e50;"><span>JavaScript</span></div>
-                  <div class="skillbar-bar" style="background: #2c3e50;"></div>
-                </div> 
-                <div class="skillbar clearfix " data-percent="80%">
-                  <div class="skillbar-title" style="background: #46465e;"><span>Bootstrap</span></div>
-                  <div class="skillbar-bar" style="background: #5a68a5;"></div>
-                </div> 
-                <div class="skillbar clearfix " data-percent="60%">
-                  <div class="skillbar-title" style="background: #333333;"><span>jQuery</span></div>
-                  <div class="skillbar-bar" style="background: #525252;"></div>
-                </div> 
-                            
-              </div>
-              <div class="col-md-5 col-sm-5">
-                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp熟悉 HTML、CSS、JavaScript</p>
-                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp熟练开发符合 W3C 标准的页面</p>
-                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp熟练使用 Bootstrap, jQuery 框架</p>
-                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp良好的编码习惯：能优雅地使用空格和换行、能优雅地命名等</p>
-                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp熟练使用PhotoShop，对基本算法、数据结构以及后台开发了解</p>
-                <p><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp有出色的沟通和表达能力，良好的英文文档阅读能力，很强的学习能力、动手能力和逻辑分析能力，有责任心，注重团队合作</p>  
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-                  
+      </div>            
       <div class="section" id="section3">
         <div id="head"></div>
         <div class="wrapper">
@@ -185,6 +188,35 @@
         <div class="wrapper">
           <h1 class="text-center">联系方式</h1><br><br>
           <div id="contactbox">
+            <h2><i class="fa fa-envelope-o" aria-hidden="true"></i>wangzhuangbang@126.com</h2>
+            <h2><span id="space"></span><i class="fa fa-mobile" aria-hidden="true" style="font-size: 40px;"></i>&nbsp188-2509-4750</h2>
+            <br/><br/>
+            <div id="circleBox">
+              <a href="http://wpa.qq.com/msgrd?v=3&uin=530906761&site=qq&menu=yes"  target="_blank" title="QQ">
+                <div class="circleLink" style="float: left">
+                  <i class="fa fa-qq " aria-hidden="true"></i>
+                </div>
+              </a>
+              <a href="https://github.com/ChongbongWong" target="_blank" title="GitHub">
+                <div class="circleLink" style="float: right">
+                  <i class="fa fa-github-alt " aria-hidden="true"></i>
+                </div>
+              </a>
+              <div style="clear:both; font-size:1px;"></div>
+            </div><br>
+            <p class="text-center" style="color: white; margin-top: 45px">Designed by &nbsp
+              <b style="font-family: Microsoft YaHei; font-size: 20px; color: white">wangzhuangbang</b>
+            </p><hr/>
+            <h2><span id="space"></span><i class="fa fa-file-word-o" aria-hidden="true" style="font-size: 30px;"></i>&nbsp<a href="#" style="color: white" target="_blank">Word简历下载</a></h2>
+            <h2><span id="space"></span><i class="fa fa-file-pdf-o" aria-hidden="true" style="font-size: 30px;"></i>&nbsp<a href="#" style="color: white" target="_blank">PDF简历下载</a></h2>
+          </div>
+        </div>
+      <!--
+      <div class="section" id="section5">
+        <div id="head"></div>
+        <div class="wrapper">
+          <h1 class="text-center">联系方式</h1><br><br>
+          <div id="contactbox">
             <h2><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto: wangzhuangbang@126.com" style="color: white">wangzhuangbang@126.com</a></h2>
             <h2><span id="space"></span><i class="fa fa-mobile" aria-hidden="true" style="font-size: 40px;"></i>&nbsp188-2509-4750</h2>
             <h2><span id="space"></span><i class="fa fa-file-word-o" aria-hidden="true" style="font-size: 30px;"></i>&nbsp<a href="#" style="color: white" target="_blank">Word简历下载</a></h2><br>
@@ -206,6 +238,7 @@
             </p>
           </div>
         </div>
+        -->
       </div>
     </div>
   </body>

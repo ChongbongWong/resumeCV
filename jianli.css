@@ -13,6 +13,11 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Hirag
   vertical-align: top;
 } 
 
+.navbar-inverse{
+	background-color: #466096;
+	border-color:#466096; 
+}
+
 /*将导航条内容居中。*/
 .navbar  {
   text-align: center;
